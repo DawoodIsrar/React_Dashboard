@@ -73,6 +73,26 @@ export default function SignIn() {
               margin="normal"
               required
               fullWidth
+              name="firstname"
+              label="Firstname"
+              type="text"
+              id="firstname"
+              autoComplete="firstname"
+            />
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              name="lastname"
+              label="Lastname"
+              type="text"
+              id="lastname"
+              autoComplete="lastname"
+            />
+            <TextField
+              margin="normal"
+              required
+              fullWidth
               id="email"
               label="Email Address"
               name="email"
